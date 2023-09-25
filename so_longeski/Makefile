@@ -1,6 +1,6 @@
 NAME=so_long
-SRC= get_next_line_utils.c get_next_line.c so_long1.c ft_itoa.c
-CFLAGS = -framework OpenGl -framework Appkit -Lminilibx -lmlx
+SRC= get_next_line_utils.c get_next_line.c so_long1.c
+CFLAGS = -framework OpenGl -framework Appkit
 LIB = ./minilibx/libmlx.a
 CC=gcc
 all: $(NAME)

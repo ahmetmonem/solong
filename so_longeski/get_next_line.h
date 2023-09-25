@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amonem <amonem@student.42.fr>              +#+  +:+       +#+        */
+/*   By: amonem <42istanbul.com.tr>                 +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/28 18:09:26 by amonem            #+#    #+#             */
-/*   Updated: 2023/09/25 19:55:44 by amonem           ###   ########.fr       */
+/*   Updated: 2023/07/31 18:09:45 by amonem           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@
 #  define BUFFER_SIZE 42
 # endif
 
-int     digitsizechecker(int n);
 char	*get_next_line(int fd);
 char	*ft_strchr(const char *str, int c);
 char	*ft_strjoin(char *line, char *buff);

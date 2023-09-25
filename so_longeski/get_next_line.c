@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amonem <amonem@student.42.fr>              +#+  +:+       +#+        */
+/*   By: amonem <42istanbul.com.tr>                 +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/28 18:09:17 by amonem            #+#    #+#             */
-/*   Updated: 2023/09/25 15:48:56 by amonem           ###   ########.fr       */
+/*   Updated: 2023/07/28 18:18:51 by amonem           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -103,8 +103,6 @@ char	*get_next_line(int fd)
 	buf = readfromfile(fd, buf);
 	if (!buf)
 		return (NULL);
-	
-	
 	line = line_needed(buf);
 	buf = remain(buf);
 	return (line);
